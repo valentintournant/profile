@@ -1,0 +1,100 @@
+body {
+  color: #444b53;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  color: #5d9ceb;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h2 {
+  color: #4a89dd;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #fc6d50;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #e9573f;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+p {
+  font-style: italic;
+}
+
+.btn-orange {
+    background-color: #fc6d50;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 4px;
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 20px;
+    text-align: center;
+}
+
+#avatar {
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+}
+
+.list-inline {
+  padding: 0;
+}
+
+.list-inline > li {
+    list-style: none;
+    display: inline;
+}
+
+.fab {
+  font-size: 30px;
+  letter-spacing: 20px;
+}
+
+#introduction {
+  margin: 30px 0 45px 0;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
